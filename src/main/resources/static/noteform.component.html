@@ -1,0 +1,24 @@
+<div class="container">
+
+<form (ngSubmit)="processForm()">
+<div class="form-group">
+<label for="id"> id</label>
+<input type="text" name="id" [(ngModel)]="note.id">
+</div>
+
+<div class="form-group">
+<label for="title"> title</label>
+<input type="text" name="title" [(ngModel)]="note.title">
+</div>
+
+<div class="form-group">
+<label for="content"> content</label>
+<input type="text" name="content" [(ngModel)]="note.content">
+</div>
+
+
+<input type="submit" value="save" class="btn btn-success">
+
+</form>
+
+</div>
