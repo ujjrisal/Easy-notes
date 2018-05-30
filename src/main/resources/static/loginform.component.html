@@ -1,0 +1,26 @@
+<div class="container">
+
+<form (ngSubmit)="processForm()">
+<div class="form-group">
+
+
+<div class="form-group">
+<label for="username"> username</label>
+<input type="text" name="username" [(ngModel)]="user.username">
+</div>
+
+
+
+<div class="form-group">
+<label for="password"> password</label>
+<input type="password" name="password" [(ngModel)]="user.password">
+</div>
+
+
+<input type="submit" value="login" class="btn btn-success">
+
+</form>
+
+</div>
+
+
