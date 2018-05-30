@@ -1,0 +1,33 @@
+<!--  <p>
+  listnote works!
+</p> -->
+
+<div class="search" style="float:right">
+<input type="text" ngModel="searchTitle">
+</div>
+
+<div class="container">
+<table class="table table-hover">
+   <thead> 
+       <th> id</th>
+       <th> title</th>
+       <th> content</th>
+       <th> operations </th>
+   </thead>
+   
+   <tbody>
+   
+   <tr *ngFor="let note of notes">
+      <td> {{note.id}} </td>
+      <td> {{note.title}} </td>
+      <td> {{note.content}} </td>
+      <td> <button class="btn btn-danger" (click)="deleteNote(note)"> Delete</button>
+      <button class="btn btn-primary" (click)="updateNote(note)"> Edit</button>
+       <button class="btn btn-primary" (click)="updateNote(note)"> Details</button>
+      </td>
+      </tr>
+   
+   </tbody>
+</table>
+ <button class="btn btn-primary" (click)="newNote()"> New note</button>
+</div>
