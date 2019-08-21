@@ -26,6 +26,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @JsonIgnoreProperties(value = { "createdAt", "updatedAt" }, allowGetters = true)
 
 // This is a model class
+//This is a model class
 public class Note implements Serializable {
 
 	@Id
