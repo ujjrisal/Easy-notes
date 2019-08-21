@@ -24,6 +24,8 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @Table(name = "notes")
 @EntityListeners(AuditingEntityListener.class)
 @JsonIgnoreProperties(value = { "createdAt", "updatedAt" }, allowGetters = true)
+
+// This is a model class
 public class Note implements Serializable {
 
 	@Id
