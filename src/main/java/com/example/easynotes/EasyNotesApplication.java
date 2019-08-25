@@ -6,6 +6,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 @SpringBootApplication
 @EnableJpaAuditing
+// this is a main class
 public class EasyNotesApplication {
 
 	public static void main(String[] args) {
