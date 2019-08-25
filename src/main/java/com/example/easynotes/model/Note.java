@@ -27,6 +27,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 // This is a model class
 //This is a model class
+// This is a role class
 public class Note implements Serializable {
 
 	@Id
