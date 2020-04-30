@@ -1,20 +1,19 @@
 package com.example.notes;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
+import com.example.notes.model.Note;
+import com.example.notes.repository.NoteRepository;
+import com.example.notes.service.NoteService;
+import com.example.notes.service.NoteServiceImpl;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
 
-import com.example.notes.model.Note;
-import com.example.notes.repository.NoteRepository;
-import com.example.notes.service.NoteService;
-import com.example.notes.service.NoteServiceImpl;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
-public class EasyNotesApplicationTests {
+public class NotesApplicationTests {
 
 	// @Mock
 	private NoteRepository noteRepository;
