@@ -1,4 +1,4 @@
-package com.example.easynotes;
+package com.example.notes;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -9,10 +9,10 @@ import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
 
-import com.example.easynotes.model.Note;
-import com.example.easynotes.repository.NoteRepository;
-import com.example.easynotes.service.NoteService;
-import com.example.easynotes.service.NoteServiceImpl;
+import com.example.notes.model.Note;
+import com.example.notes.repository.NoteRepository;
+import com.example.notes.service.NoteService;
+import com.example.notes.service.NoteServiceImpl;
 
 public class EasyNotesApplicationTests {
 

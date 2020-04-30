@@ -1,8 +1,8 @@
-package com.example.easynotes.service;
+package com.example.notes.service;
 
 import java.util.List;
 
-import com.example.easynotes.model.Note;
+import com.example.notes.model.Note;
 
 public interface NoteService {
 

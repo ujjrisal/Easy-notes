@@ -1,4 +1,4 @@
-package com.example.easynotes.controller;
+package com.example.notes.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

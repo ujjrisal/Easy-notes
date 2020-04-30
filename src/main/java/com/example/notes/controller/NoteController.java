@@ -1,4 +1,4 @@
-package com.example.easynotes.controller;
+package com.example.notes.controller;
 
 import java.util.List;
 
@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.easynotes.model.Note;
-import com.example.easynotes.service.NoteServiceImpl;
+import com.example.notes.model.Note;
+import com.example.notes.service.NoteServiceImpl;
 
 @RestController
 @RequestMapping("/notes")

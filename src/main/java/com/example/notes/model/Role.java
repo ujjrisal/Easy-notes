@@ -1,4 +1,4 @@
-package com.example.easynotes.model;
+package com.example.notes.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

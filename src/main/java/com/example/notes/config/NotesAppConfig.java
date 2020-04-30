@@ -1,6 +1,4 @@
-package com.example.easynotes.config;
-
-import javax.sql.DataSource;
+package com.example.notes.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -11,17 +9,19 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
+import javax.sql.DataSource;
+
 @Configuration
 @EnableWebSecurity
-public class EasyNotesAppConfig extends WebSecurityConfigurerAdapter {
+public class NotesAppConfig extends WebSecurityConfigurerAdapter {
 
 	private final DataSource dataSource;
 
 	private final BCryptPasswordEncoder bCryptPasswordEncoder;
 
 	@Autowired
-	public EasyNotesAppConfig(@Qualifier("dataSource") DataSource dataSource,
-			BCryptPasswordEncoder bCryptPasswordEncoder) {
+    public NotesAppConfig(@Qualifier("dataSource") DataSource dataSource,
+                          BCryptPasswordEncoder bCryptPasswordEncoder) {
 		this.dataSource = dataSource;
 		this.bCryptPasswordEncoder = bCryptPasswordEncoder;
 	}

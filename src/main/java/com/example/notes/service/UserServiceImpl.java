@@ -1,14 +1,14 @@
-package com.example.easynotes.service;
+package com.example.notes.service;
 
 import java.util.Arrays;
 import java.util.HashSet;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.example.easynotes.model.Role;
-import com.example.easynotes.model.User;
-import com.example.easynotes.repository.RoleRepository;
-import com.example.easynotes.repository.UserRepository;
+import com.example.notes.model.Role;
+import com.example.notes.model.User;
+import com.example.notes.repository.RoleRepository;
+import com.example.notes.repository.UserRepository;
 
 public class UserServiceImpl implements UserService {
 

@@ -1,6 +1,6 @@
-package com.example.easynotes.service;
+package com.example.notes.service;
 
-import com.example.easynotes.model.User;
+import com.example.notes.model.User;
 
 public interface UserService {
 

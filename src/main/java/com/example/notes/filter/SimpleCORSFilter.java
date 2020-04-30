@@ -1,4 +1,4 @@
-package com.example.easynotes.filter;
+package com.example.notes.filter;
 
 import java.io.IOException;
 

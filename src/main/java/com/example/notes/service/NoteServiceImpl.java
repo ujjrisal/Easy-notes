@@ -1,4 +1,4 @@
-package com.example.easynotes.service;
+package com.example.notes.service;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -6,8 +6,8 @@ import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.easynotes.model.Note;
-import com.example.easynotes.repository.NoteRepository;
+import com.example.notes.model.Note;
+import com.example.notes.repository.NoteRepository;
 
 @Service
 public class NoteServiceImpl implements NoteService {

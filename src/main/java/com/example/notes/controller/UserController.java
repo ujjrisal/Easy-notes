@@ -1,4 +1,4 @@
-package com.example.easynotes.controller;
+package com.example.notes.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.easynotes.model.User;
-import com.example.easynotes.service.UserServiceImpl;
+import com.example.notes.model.User;
+import com.example.notes.service.UserServiceImpl;
 
 @RestController
 public class UserController {

@@ -1,4 +1,4 @@
-package com.example.easynotes.model;
+package com.example.notes.model;
 
 import java.io.Serializable;
 import java.util.Date;
